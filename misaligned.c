@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "TempCoversion.h"
+#include "TempConversion.h"
 
 Colorpair colorpair[25];
 
