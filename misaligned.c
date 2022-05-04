@@ -6,8 +6,8 @@ Colorpair colorpair[25];
 
 int printAndUpdateColorData() {
     int i = 0, j = 0, localPairNumber=0;
-    for(i = 0; i < 5; i++) {
-        for(j = 0; j < 5; j++) {
+    for(i = 1; i < 6; i++) {
+        for(j = 1; j < 6; j++) {
             localPairNumber = localPairNumber+1;
             strcpy(colorpair[localPairNumber].MajorColor , majorColor[i]);
 	        strcpy(colorpair[localPairNumber].MinorColor , minorColor[i]);
